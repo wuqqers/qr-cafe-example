@@ -109,62 +109,57 @@ const BrutteCafeMenu = () => {
     ],
     baslangic: [
       {
-        name: "Bruschetta Tabağı",
-        description: "Ev yapımı ekşi maya ekmek üzerinde taze domates, fesleğen, sızma zeytinyağı ve aged balsamik",
-        price: 85,
-        imageUrl: "https://example.com/bruschetta-tabagi.jpg"
+        name: "Çorba",
+        description: "Günün çorbası",
+        price: 50,
+        imageUrl: "https://example.com/corba.jpg"
       },
       {
-        name: "Burrata Salatası",
-        description: "Taze burrata peyniri, renkli cherry domatesler, roka, fesleğen pesto ve aged balsamik sos ile",
-        price: 165,
-        allergens: "süt ürünleri",
-        imageUrl: "https://example.com/burrata-salatasi.jpg"
+        name: "Patates Kızartması",
+        description: "Klasik patates kızartması",
+        price: 45,
+        imageUrl: "https://example.com/patates-kizartmasi.jpg"
       }
     ],
     anayemek: [
       {
-        name: "Truffle Risotto",
-        description: "Arborio pirinç ile hazırlanan, porçini mantarlı, trüf yağı ve parmesan ile servis edilen risotto",
-        price: 225,
-        isSignature: true,
-        preparation: "25-30 dakika",
-        allergens: "süt ürünleri"
+        name: "Makarna",
+        description: "Domates soslu spagetti",
+        price: 75,
+        imageUrl: "https://example.com/makarna.jpg"
       },
       {
-        name: "Wagyu Burger",
-        description: "Brioche ekmeği arasında wagyu beef burger, karamelize soğan, olgunlaştırılmış cheddar peyniri, ev yapımı özel sos. Trüf yağlı patates kızartması ile servis edilir",
-        price: 285,
-        allergens: "gluten, süt ürünleri"
+        name: "Tavuk Izgara",
+        description: "Izgara tavuk göğsü, pilav ve salata ile",
+        price: 95,
+        imageUrl: "https://example.com/tavuk-izgara.jpg"
       }
     ],
     tatli: [
       {
-        name: "Brutte Soufflé",
-        description: "Valrhona %70 bitter çikolata ile hazırlanan, içi akışkan sufle. Ev yapımı vanilya dondurması ile servis edilir",
-        price: 125,
-        isSignature: true,
-        preparation: "20 dakika",
-        allergens: "yumurta, süt ürünleri"
+        name: "Dondurma",
+        description: "Vanilyalı dondurma",
+        price: 30,
+        imageUrl: "https://example.com/dondurma.jpg"
       },
       {
-        name: "Crème Brûlée",
-        description: "Madagaskar vanilyası ile hazırlanan, üzeri karamelize edilmiş klasik Fransız tatlısı",
-        price: 95,
-        allergens: "süt ürünleri, yumurta"
+        name: "Baklava",
+        description: "Cevizli baklava",
+        price: 40,
+        imageUrl: "https://example.com/baklava.jpg"
       }
     ],
     icecekler: [
       {
-        name: "Signature Filter Coffee",
-        description: "Guatemala yüksek rakım kahve çekirdeklerinden V60 metodu ile demlenen özel kahvemiz",
-        price: 55,
-        preparation: "5-7 dakika"
+        name: "Çay",
+        description: "Demleme çay",
+        price: 15,
+        preparation: "5 dakika"
       },
       {
-        name: "Affogato",
-        description: "Ev yapımı vanilya dondurması üzerine sıcak espresso",
-        price: 65
+        name: "Kola",
+        description: "Soğuk kola",
+        price: 20
       }
     ]
   };
